@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ls
-        run: ls -al
+        run: |
+          echo "Hola Mundo" >> hola.txt
+          cat hola.txt
