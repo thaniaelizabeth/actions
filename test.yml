@@ -1,0 +1,16 @@
+key: Hola Mundo
+
+person:
+  name: Juan
+  age: 30
+  city: Madrid
+  items:
+    - name: Item 1
+      price: 10.99
+    - name: Item 2
+      price: 20.50
+
+scripts: |
+  touch hola.txt
+  echo "Hola";
+
